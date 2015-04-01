@@ -1,0 +1,299 @@
+html,
+body {
+    height: 100%;
+    min-height: 400px;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+label {
+    white-space: nowrap
+}
+
+.col-md-6 {
+    padding: 0
+}
+
+.form-control {
+    height: 35px
+}
+
+.navbar h2 {
+    padding: 14px 0 14px 10px
+}
+
+.nav-justified>li {
+    display: table-cell;
+    width: 1%;
+}
+
+.nav-justified>li>a {
+    margin-bottom: 0
+}
+
+.navbar .navbar-default {
+    padding-right: 15px
+}
+
+.panel,
+.table {
+    margin-bottom: 0
+}
+
+.form-control-feedback {
+    display: none
+}
+
+.has-error .form-control-feedback {
+    display: block
+}
+
+.pb-100 {
+    height: 100%;
+}
+
+.pb-btn-filter .glyphicon {
+    display: none;
+}
+
+.pb-main-header {
+    height: 90px;
+}
+
+.pb-main-content {
+    height: -webkit-calc(100% - 90px);
+    height: -moz-calc(100% - 90px);
+    height: calc(100% - 90px);
+}
+
+#helper-region {
+    z-index: 2000;
+
+    display: none;
+
+    width: calc(100% - 31px);
+    height: calc(100% - 177px);
+
+    background: #fff;
+}
+
+#helper-region .panel-header {
+    height: 42px;
+}
+
+#helper-region .panel-body {
+    overflow: hidden;
+
+    height: calc(100% - 42px);
+}
+
+#helper-region .pb-favorite-checkbox .checkbox label {
+    padding-left: 12px;
+}
+
+#main-region {
+    height: calc(100% - 55px);
+    margin-bottom: 15px;
+}
+
+#main-region .panel-body {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: 100%;
+    height: calc(100% - 42px);
+    padding: 0;
+}
+
+#main-region .panel-heading {
+    height: 42px;
+}
+
+#panel-region {
+    height: 52px;
+    margin-bottom: 20px;
+}
+
+#panel-region .navbar {
+    padding-right: 15px;
+}
+
+#panel-region .navbar-form {
+    padding-left: 0;
+}
+
+#panel-region .pb-btn-add {
+    margin-left: 15px;
+}
+
+#contacts-region {
+    height: calc(100% - 52px);
+}
+
+#contacts-region .panel-body ul {
+    padding: 15px 0;
+}
+
+.pb-contacts-panel {
+    height: calc(100% - 20px);
+}
+
+.pb-all-contacts {
+    width: calc(100% + 108px);
+    max-width: inherit;
+    margin-left: -38px;
+
+    table-layout: fixed;
+
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.pb-all-contacts.pb-edit-active {
+    width: 100%;
+    margin-left: 0;
+
+    table-layout: fixed;
+}
+
+.pb-all-contacts h3 {
+    font-size: 18px;
+
+    width: calc(100% - 107px);
+    margin: 0 38px;
+    padding: 15px;
+
+}
+
+.pb-all-contacts.pb-edit-active h3 {
+    margin-left: 0;
+}
+
+.pb-favorite-td {
+    width: 44px;
+}
+
+.pb-favorite-td .checkbox {
+    margin: 0;
+    padding-left: 7px;
+}
+
+.pb-favorite-td label {
+    padding-left: 0;
+}
+
+.pb-favorite-checkbox input {
+    display: none;
+}
+
+.pb-favorite-checkbox .glyphicon {
+    color: #f0ad4e;
+}
+
+.pb-favorite-checkbox input:checked + .glyphicon:before {
+    content: '\e006';
+}
+
+.pb-first-name-td,
+.pb-last-name-td,
+.pb-mobile-phone-td,
+.pb-home-phone-td {
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pb-first-name-td {
+    padding-left: 15px!important;
+}
+
+.pb-buttons-set {
+    width: 78px;
+    padding-right: 16px!important;
+}
+
+.pb-error:not(:empty) {
+    position: relative;
+    top: 4px;
+    left: 13px;
+}
+
+.pb-order-td {
+    width: 30px;
+    padding-left: 15px!important;
+}
+
+
+#footer-region {
+    height: 40px;
+}
+
+
+@media (max-width: 1370px) {
+    .pb-max1740hide{
+       display: none;
+    }
+    .pb-btn-filter .pb-button-text{
+        display: none;
+    }
+    .pb-btn-filter .glyphicon{
+        display: inline;
+    }
+}
+
+
+@media (max-width: 767px){
+    .h1, h1 {
+        font-size: 32px;
+    }
+
+    #helper-region {
+        width: 100%;
+        height: calc(100% - 146px);
+        margin-left: -1px;
+    }
+
+    #panel-region .form-group {
+        display: inline-block;
+    }
+
+    #panel-region .navbar-form .form-control {
+        display: inline-block;
+
+        margin-bottom: 0;
+
+        vertical-align: middle;
+    }
+
+    #panel-region .navbar-right {
+        float: right!important;
+
+        margin-right: -15px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        border: 0;
+    }
+
+    .pb-main-content {
+        padding: 0;
+    }
+
+    .pb-first-name-td,
+    .pb-home-phone-td {
+        display: none;
+    }
+
+}
+
+@media (max-width: 450px) {
+    #panel-region .form-control{
+        width: 100px;
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "nodeProject",
+    "version": "0.0.1",
+    "description": "A simple library application using Node and Backbone",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "~4.9.x",
+        "mongoose": "~3.8",
+        "body-parser": "~1.12"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
+}

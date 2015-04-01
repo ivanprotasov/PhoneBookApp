@@ -1,0 +1,1 @@
+There are no favorites here<br/>To add favorite contact, please edit one on "Contacts" tab

@@ -1,0 +1,32 @@
+{
+  "name": "PhoneBookApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ivanprotasov/PhoneBookApp",
+  "authors": [
+    "ivanprotasov <ivanprotasov@narod.ru>"
+  ],
+  "description": "Simple phone book app with marionette.js and node.js",
+  "main": "index.html",
+  "keywords": [
+    "marionette",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "jquery": "1.11.2",
+      "underscore": "latest",
+      "backbone": "1.1.2",
+      "marionette": "2.3",
+      "json2":"latest",
+      "bootstrap":"latest",
+      "backbone.syphon":"latest",
+      "requirejs":"2.1"
+  }
+}
