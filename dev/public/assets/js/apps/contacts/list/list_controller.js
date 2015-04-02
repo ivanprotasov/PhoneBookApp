@@ -19,7 +19,8 @@ define(["app", "apps/contacts/list/list_view"], function(PhoneBookManager, List)
                                 var attrs = _.omit(model.attributes, ['_id','__v']);
                                 return _.some(attrs, function(value){
                                     value=(value==null?"":value)+"";
-                                    return value.indexOf(criterion)>-1;
+                                    value=value.toLowerCase();
+                                    return value.indexOf(criterion.toLowerCase())>-1;
                                 });
                             });
                             this.reset(filteredList);
